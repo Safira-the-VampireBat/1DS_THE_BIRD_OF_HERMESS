@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Pirata+One&display=swap');
+
+:root {
+--black: #000000ff;
+--rich-black: #0c1821ff;
+--oxford-blue: #1b2a41ff;
+--charcoal: #324a5fff;
+--titulo: "Pirata One", sans-serif;
+--texto: "Pinyon Script", sans-serif;
+}
+body{
+    background-color: var(--oxford-blue);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+   margin-top: 20px;
+   max-width: 90%;
+   text-align: center;
+}
+button{
+   font-family: var(--titulo);
+   background-color: var(--charcoal);
+   color: black;
+   border: 2px solid var(--rich-black);
+   padding: 20px 30px;
+   margin: 10px 0;
+   cursor: pointer;
+   border-radius: 10px;
+   font-size: 20px;
+}
+button:hover{
+    background-color: var(--oxford-blue);
+    color: var(--rich-black);
+    transition: 0.5s;
+}
+
+.passo{
+    font-size: 24px;
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}

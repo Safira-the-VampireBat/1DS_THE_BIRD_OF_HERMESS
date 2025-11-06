@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG The Moonligth Creaturies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+<img src="" alt="">
+            <p> Você decide entrar em uma floresta que dizem possuir criaturas da noite, como lobisomens e vampiros. Quando chega lá, você vê 2 caminhos a seguir:</p>
+            <button class="btn-proximo" data-proximo="1">caminho 1</button>
+            <button class="btn-proximo" data-proximo="2">caminho 2</button>
+        </div>
+            <div class="passo" id="passo-1">
+             <p>Você decide ir pelo primeiro caminho e logo percebe marcas de garras nas árvores:</p>
+              <p>Você vai investigar o que causou aquilo?</p>
+              <button class="btn-proximo" data-proximo="3">Sim</button>
+              <button class="btn-proximo" data-proximo="4">Não</button>
+            </div>
+            <div class="passo" id="passo-2">
+            <p>Você anda pelo segundo caminho e logo avista um homem e decide falar com ele, ele lhe ofereçe uma bebida vermelha, vai aceitar?</p>
+            <button class="btn-proximo" data-proximo="5">Sim</button>
+             <button class="btn-proximo" data-proximo="6">Não</button>
+            </div>
+            <div class="passo" id="passo-3">
+            <p> Você foi morto por um lobisomen..</p>
+            <p>Game over</p>
+            </div>
+            <div class="passo" id="passo-4">
+             <p>Você decide voltar e seguir o 2° caminho</p>
+            </div>
+            <div class="passo" id="passo-5">
+            <p>Você bebe e tudo fica escuro, quando acorda você nota que agora é uma criatura da noite, um vampiro, igual ao homem que conheceu</p>
+             <p>Fim de jogo, final bom</p>             
+        </div>
+        <div class="passo" id="passo-6">
+        <p>Ele era um vampiro e te matou por não ter aceitado se tornar o companheiro dele</p>
+        <p>Game over</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
